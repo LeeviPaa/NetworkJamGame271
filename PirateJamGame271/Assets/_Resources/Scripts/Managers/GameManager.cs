@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-    public GameObject VRTrackedPlayer;
+    public VRMovementTracking VRTrackedPlayer;
     public GameObject PlayerPawn;
     public Transform spawnPosition;
     private GameObject Player;
